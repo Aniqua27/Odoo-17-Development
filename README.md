@@ -3,6 +3,16 @@ Odoo ERP is a vast platform to work. It can be used for may purpose, such as; we
 ----
 you can configure using this(for source code user):
 
+
+<p><code>[options]
+admin_passwd = admin
+db_host = localhost
+db_port = 5432
+db_user = cool
+db_password = 1234
+addons_path = D:\odoo-17.0\addons
+xmlrpc_port = 8069</code></p>
+
 [options]
 admin_passwd = admin
 db_host = localhost
