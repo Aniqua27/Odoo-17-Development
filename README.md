@@ -94,7 +94,6 @@ in that file you will have to write this:
 
 
 <p><code>
-
 {
     // A Configuration Code For Vs-Code
     "version": "0.2.0",
@@ -116,8 +115,6 @@ in that file you will have to write this:
             "RedirectOutput"
         ]
     }]
-}
-
-</code></p>
+}</code></p>
 
 
