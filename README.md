@@ -13,21 +13,10 @@ db_password = 1234
 addons_path = D:\odoo-17.0\addons
 xmlrpc_port = 8069</code></p>
 
-[options]
-admin_passwd = admin
-db_host = localhost
-db_port = 5432
-db_user = cool
-db_password = 1234
-addons_path = D:\odoo-17.0\addons
-xmlrpc_port = 8069
-
-
-
 ----
 or (for nightly download user)
 ----
-
+<p><code>
 [options]
 addons_path = C:\odoo17\server\odoo\addons, C:\odoo17\server\custom
 admin_passwd = admin
@@ -96,12 +85,15 @@ websocket_rate_limit_delay = 0.2
 without_demo = False
 workers = None
 x_sendfile = False
-
+</code></p>
 
 ----
 If you use the second option, you will need to download the other part as <b><i>{}launch.json</i></b>
 
 in that file you will have to write this:
+
+
+<p><code>
 
 {
     // A Configuration Code For Vs-Code
@@ -126,6 +118,6 @@ in that file you will have to write this:
     }]
 }
 
-
+</code></p>
 
 
