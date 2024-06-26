@@ -1,7 +1,7 @@
 # Odoo-17-Development
-Odoo ERP is a vast platform to work. It can be used for may purpose, such as; web developing, employee management, sales management, hr management etc.
+Odoo ERP is a vast platform to work. It can be used for many purposes, such as; web development, employee management, sales management, HR management, etc.
 ----
-you can configure using this(for source code user):
+you can configure using this(for source code user): <b>odoo.conf</b> (file name)
 
 
 <p><code>[options]
@@ -14,7 +14,8 @@ addons_path = D:\odoo-17.0\addons
 xmlrpc_port = 8069</code></p>
 
 ----
-or (for nightly download user)
+or (for nightly download user) <b>odoo.conf</b> (file name)
+
 ----
 <p><code>
 [options]
